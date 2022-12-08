@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<h1>KYLA<i>FERRY</i></h1>
+
+
+<nav class="sticky">
+    <a class="pseudo" href="About Me">ABOUT ME</a>
+    <a class="pseudo" href="tags.html">Tags</a>
+    <a class="pseudo" href="nested.html">Nested</a>
+</nav>

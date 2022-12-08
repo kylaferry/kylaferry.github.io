@@ -1,255 +1,110 @@
 
 a.pseudo:hover {
-    color: red;
+    color: rgb(105, 101, 101);
 }
 
 a.pseudo:active {
-    color: darkred;
+    color: rgb(6, 6, 6);
 }
 
 
-
-h1 {
-    font-family: 'Brush Script MT', cursive;
-    color: whitesmoke;
-    text-align:center;
-    font-size: 70px;
-    background-color: lightblue;
-    border: 10px; 
-}
-
-p {
-    font-family: Garamond, serif;
-    text-align: center;
-    font-size: 20px;
-}
-
-img {
-    width: 330px;
-    height: 250px;
-    margin-left: 70px;
-    margin-bottom: 50px;
-}
-
-.terrains{
-font-size: 25px;
-font-family: Garamond, serif;
-text-align: center;
-background-color: lightblue;
-}
-
-.box{ 
-    background-color: lightblue;
-    width: 500px;
-    height: 300px;
-    padding-top: 2px;
-    border-style: solid;
-    border-color: whitesmoke;
-    border-width: 10px;
-
-}
-
-.box2{
-    background-color: lightblue;
-    width: 500px;
-    height: 300px;
-    padding-top: 2px;
-    border-style: solid;
-    border-color: whitesmoke;
-    border-width: 10px;
-}
-
-div.box{
-    position: absolute;
-    left: 1350px;
-}
-
-div.box2{
-    position:sticky;
-    left: 700px;
-
-}
-
-#terrains{
-    color: white;
-    font-size: 40px;
-    font-family: 'Brush Script MT', cursive;
-}
-
-#list{
-    text-align: center;
-    font-size: 20px;
-    font-family: Garamond, serif;
-}
-
-#list2{
-    text-align: left;
-    text-align: center;
-    font-size: 20px;
-    font-family: Garamond, serif;
-}
-
-/* The animation code */
-@keyframes animation {
-    from {background-color: lightblue;}
-    to {background-color: rgb(247, 183, 64);}
-  }
-
-/* The element to apply the animation to */
-div {
-    width: 100px;
-    height: 100px;
-    background-color: lightblue;
-    animation-name: animation;
-    animation-duration: 10s;
-  }
 
 h1{
-    width: 2550px;
-    height: 100px;
-    background-color: lightblue;
-    animation-name: animation;
-    animation-duration: 10s;
+    font-family: Garamond, serif;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+nav{
+    text-align: center;
+    word-spacing: 80px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+
+h2{
+    text-align: center;
+    padding-top: 50px;
+    font-family: Garamond, serif; 
+    letter-spacing: 5px;
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*
-body {
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-a.pseudo:visited {
-    color: yellowgreen;
-}
-
-a.pseudo:hover {
-    color: red;
-}
-
-a.pseudo:active {
-    color: green;
-}
-
-/*
-.box {
-    background: lightgray;
-    width: 400px;
-    border: 15px solid yellowgreen;
-    padding: 50px;
-    margin: 50px;
-}
-
-p {
-    background-color: yellowgreen;
-    color: white;
-    margin: 10px 50px 40px 50px;
-}
-
-
-div.position {
+img {
+    padding-top: 70px;
+    height: 700px;
     position: absolute;
-    left: 150px;
-    right: 200px;
-    top: 500px;
-}
-
-nav.sticky {
-    position: sticky;
-    top: 0px;
-    padding: 3px;
-    background-color: greenyellow;
-    border: 1px solid gray;
+    left: 40.5%;
 }
 
 
-
-
-
-
-div {
-    background: red;
+p{
+    text-align: center;
+    margin-right: 25%;
+    margin-top: 36%;
+    margin-left: 25%;
+    font-size: 25px;
+    background-color: rgb(192, 205, 189);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+    font-family: Garamond, serif;
 }
 
-span {
-    background: yellow;
+section {
+    background-color: white;
 }
-*/
 
+.content {
+    background-color: whitesmoke;
+}
 
-
-
-
-
-/*
 body {
-    background: lightblue;
+    background-color: whitesmoke;
 }
 
-section a {
-    color: green;
+.wordpic {
+    text-align: center;
+    margin-top: 3%;
+    margin-left: 20%;
+    margin-right: 20%;
 }
 
-section > a {
-    color:blue;
+.home {
+    padding-top: 5%;
+    padding-bottom: 5%;
+    margin-left: 5%;
+    left: 200px;
+}
+.aboutme {
+    padding-top: 5%;
+    padding-bottom: 5%;
+    right: 250px;
+    padding-left: 13%;
 }
 
-h4 {
-    color:orange;
+.center {
+margin: 0% 30%;
+padding-bottom: 10%;
 }
 
-.example {
-    color: rgb(210, 62, 62);
+.html {
+    padding-top: 5%;
+    padding-bottom: 5%;
+    margin-left: 5%;
+    left: 200px;
 }
 
-.example2 {
-    background: rgb(60, 57, 57);
+.css {
+    padding-top: 5%;
+    padding-bottom: 5%;
+    right: 250px;
+    padding-left: 13%;
 }
 
-.container {
-    font-size: 22px;
-    color: green;
+.footer2 {
+    padding-top: 800px;
 }
-
-
-
-p {
-    color:blueviolet;
-    font-size: 22px;
-    text-align: left;
-}
--->
-*/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
